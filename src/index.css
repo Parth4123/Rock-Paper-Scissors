@@ -1,3 +1,90 @@
-html {
-    background-image: linear-gradient( 58.2deg,  rgba(40,91,212,0.73) -3%, rgba(171,53,163,0.45) 49.3%, rgba(255,204,112,0.37) 97.7% );
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+    /* background-color: #ffffff00; */
+    background-image: url(../assests/images/wave-haikei.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    font-size: large;
+    color: #ffffff;
+
+}
+
+#computerChoice{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+#userChoice{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+#result{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.Buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+} 
+
+button{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    margin: 4rem;
+    padding: 4rem;
+    border-radius: 1rem;
+    border: 0.2rem solid #ffffff;
+    background-color: #ffffff00;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+button:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+#Rock{
+    background-image: url(../assests/images/rock.png);
+    background-repeat: no-repeat;
+    background-size: 6.5rem;
+    background-position: center;
+    margin: 4rem;
+    padding: 5rem;
+    width: 2rem;
+    height: 1rem;
+}
+
+#Paper{
+    background-image: url(../assests/images/paper1.png);
+    background-repeat: no-repeat;
+    background-size: 6.5rem;
+    background-position: center;
+    margin: 4rem;
+    padding: 5rem;
+    width: 2rem;
+    height: 1rem;
+}
+
+#Scissors{
+    background-image: url(../assests/images/scissor.png);
+    background-repeat: no-repeat;
+    background-size: 6.5rem;
+    background-position: center;
+    margin: 4rem;
+    padding: 5rem;
+    width: 2rem;
+    height: 1rem;
 }
