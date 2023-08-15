@@ -32,23 +32,10 @@ function getResult (p1,p2){
     if (p1 === p2){
         result = "It's a draw!"
     }
-    if (p1 === "Rock" && p2 === "Paper"){
-        result = "Computer wins!"
-    }
-    if (p1 === "Rock" && p2 === "Scissors"){
+    else if ((p1 === "Rock" && p2 === "Scissors") ||  (p1 === "Paper" && p2 === "Rock") || (p1 === "Scissors" && p2 === "Paper")){
         result = "You win!"
-    }
-    if (p1 === "Paper" && p2 === "Rock"){
-        result = "You win!"
-    }
-    if (p1 === "Paper" && p2 === "Scissors"){
+    }else{  
         result = "Computer wins!"
-    }
-    if (p1 === "Scissors" && p2 === "Rock"){
-        result = "Computer wins!"
-    }
-    if (p1 === "Scissors" && p2 === "Paper"){
-        result = "You win!"
     }
     resultDisplay.innerHTML = result
 }

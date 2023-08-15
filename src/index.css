@@ -10,6 +10,22 @@ body{
 
 }
 
+.Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+  
+}
+.containerColor{
+    background-color: #51e0f000;
+    border-radius: 1rem;
+    border: 0.2rem solid #000000;
+    padding: 2rem;
+    margin: 2rem;
+    box-shadow: 0 0 1rem #000000;
+}
 #computerChoice{
     font-family: 'Roboto', sans-serif;
     font-size: 3rem;
